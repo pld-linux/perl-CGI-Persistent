@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Persistent
+%define		pdir	CGI
+%define		pnam	Persistent
 Summary:	CGI::Persistent - transparent state persistence for CGI applications
 Summary(pl):	CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
 Name:		perl-CGI-Persistent

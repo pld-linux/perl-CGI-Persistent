@@ -11,7 +11,7 @@ Name:		perl-CGI-Persistent
 Version:	0.23
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a75aec145a04565af10acf3e7198e108

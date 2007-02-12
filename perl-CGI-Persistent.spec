@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Persistent
 Summary:	CGI::Persistent - transparent state persistence for CGI applications
-Summary(pl):	CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
+Summary(pl.UTF-8):   CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
 Name:		perl-CGI-Persistent
 Version:	1.00
 Release:	1
@@ -39,21 +39,21 @@ query.
 CGI::Persistent is derived from CGI.pm. CGI.pm methods have been
 overridden as appropriate. Very few new methods have been added.
 
-%description -l pl
-HTTP jest protoko³em bezstanowym; serwer HTTP zamyka po³±czenie po
-podaniu obiektu. Nie przechowuje w pamiêci szczegó³ów dotycz±cych
-¿±dañ i nie wi±¿e nastêpnych ¿±dañ z tym, co ju¿ zosta³o podane.
+%description -l pl.UTF-8
+HTTP jest protokoÅ‚em bezstanowym; serwer HTTP zamyka poÅ‚Ä…czenie po
+podaniu obiektu. Nie przechowuje w pamiÄ™ci szczegÃ³Å‚Ã³w dotyczÄ…cych
+Å¼Ä…daÅ„ i nie wiÄ…Å¼e nastÄ™pnych Å¼Ä…daÅ„ z tym, co juÅ¼ zostaÅ‚o podane.
 
-CGI::Persistent rozwi±zuje ten problem wprowadzaj±c trwa³e sesje CGI
-przechowuj±ce dane o stanie po stronie serwera. Kiedy zaczyna siê nowa
-sesja, CGI::Persistent automatycznie generuje unikalny ³añcuch
-identyfikuj±cy stan i wi±¿e go z trwa³ym obiektem na serwerze. £añcuch
-identyfikuj±cy jest u¿ywany w URL-ach lub formularzach, aby wskazywa³
-na konkretn± sesjê. Atrybuty ¿±dania s± w sposób przezroczysty
-dodawane do powi±zanego obiektu, a dane obiektu s± przypisane do
+CGI::Persistent rozwiÄ…zuje ten problem wprowadzajÄ…c trwaÅ‚e sesje CGI
+przechowujÄ…ce dane o stanie po stronie serwera. Kiedy zaczyna siÄ™ nowa
+sesja, CGI::Persistent automatycznie generuje unikalny Å‚aÅ„cuch
+identyfikujÄ…cy stan i wiÄ…Å¼e go z trwaÅ‚ym obiektem na serwerze. ÅaÅ„cuch
+identyfikujÄ…cy jest uÅ¼ywany w URL-ach lub formularzach, aby wskazywaÅ‚
+na konkretnÄ… sesjÄ™. Atrybuty Å¼Ä…dania sÄ… w sposÃ³b przezroczysty
+dodawane do powiÄ…zanego obiektu, a dane obiektu sÄ… przypisane do
 zapytania.
 
-CGI::Persistent wywodzi siê z CGI.pm, którego metody zosta³y
+CGI::Persistent wywodzi siÄ™ z CGI.pm, ktÃ³rego metody zostaÅ‚y
 odpowiednio przykryte. Dodano tylko kilka nowych metod.
 
 %prep

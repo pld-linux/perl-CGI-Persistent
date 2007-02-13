@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Persistent
 Summary:	CGI::Persistent - transparent state persistence for CGI applications
-Summary(pl.UTF-8):   CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
+Summary(pl.UTF-8):	CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
 Name:		perl-CGI-Persistent
 Version:	1.00
 Release:	1

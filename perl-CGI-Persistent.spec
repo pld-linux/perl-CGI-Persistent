@@ -9,7 +9,7 @@ Summary:	CGI::Persistent - transparent state persistence for CGI applications
 Summary(pl.UTF-8):	CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
 Name:		perl-CGI-Persistent
 Version:	1.00
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

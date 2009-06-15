@@ -8,13 +8,13 @@
 Summary:	CGI::Persistent - transparent state persistence for CGI applications
 Summary(pl.UTF-8):	CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
 Name:		perl-CGI-Persistent
-Version:	1.00
-Release:	2
+Version:	1.11
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0669a0720c8c0992cb0ccf43622311ca
+# Source0-md5:	b91c3cabb9c5e2029522ad8937959a19
 BuildRequires:	perl-CGI
 BuildRequires:	perl-Persistence-Object-Simple
 BuildRequires:	perl-devel >= 1:5.8.0

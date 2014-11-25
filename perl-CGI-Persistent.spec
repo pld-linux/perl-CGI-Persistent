@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	Persistent
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Persistent - transparent state persistence for CGI applications
 Summary(pl.UTF-8):	CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
 Name:		perl-CGI-Persistent
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b91c3cabb9c5e2029522ad8937959a19
+URL:		http://search.cpan.org/dist/CGI-Persistent/
 BuildRequires:	perl-CGI
 BuildRequires:	perl-Persistence-Object-Simple
 BuildRequires:	perl-devel >= 1:5.8.0

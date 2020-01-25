@@ -4,7 +4,6 @@
 
 %define		pdir	CGI
 %define		pnam	Persistent
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Persistent - transparent state persistence for CGI applications
 Summary(pl.UTF-8):	CGI::Persistent - przezroczyste zachowywanie stanu dla aplikacji CGI
 Name:		perl-CGI-Persistent
